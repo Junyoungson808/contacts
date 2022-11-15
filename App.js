@@ -39,7 +39,7 @@ export default function App() {
     <View style={styles.container}>
       <SafeAreaView>
         <View style={styles.title}>
-          <Text>Contacts</Text>
+          <Text style={styles.title}>Contacts</Text>
         </View>
         <View>
           <FlatList
@@ -61,10 +61,13 @@ const styles = StyleSheet.create({
     backgroundColor: 'green',
     alignItems: 'center',
     justifyContent: 'center',
+    margin: 5,
   },
   title: {
-    backgroundColor: 'purple',
+    backgroundColor: 'lime',
     textAlign: 'center',
-    marginTop: 100,
+    marginTop: 20,
+    marginBottom: 20,
+    padding: 1,
   },
 });
