@@ -1,7 +1,9 @@
 {
   "expo": {
     "name": "context",
-    "slug": "context",
+    "slug": "401d48contacts",
+    "owner": "junyoungson808",
+
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
